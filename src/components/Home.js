@@ -8,15 +8,17 @@ class Home extends Component {
     render() {
         return (
             <div>
-                <div className="container">
-                    <section className="featured">Featured
+                <div className="home container">
+                    <section className="featured">
+                        <h1>Featured</h1>
                         <div className="featured row">
                             <div className="first col">Video Game</div>
                             <div className="second col">Movie</div>
                             <div className="third col">Video Game</div>
                         </div>
                     </section>
-                    <section className="popular">Popular
+                    <section className="popular">
+                        <h1>Popular</h1>
                         <div className="popular row">
                             <div className="first col">Movie</div>
                             <div className="second col">Video Game</div>
@@ -24,7 +26,8 @@ class Home extends Component {
                             <div className="fourth col">Movie</div>
                         </div>
                     </section>
-                    <section className="new">New Releases
+                    <section className="new">
+                        <h1>New Releases</h1>
                         <div className="new row">
                             <div className="first col">Video Game</div>
                             <div className="second col">Movie</div>
@@ -32,7 +35,8 @@ class Home extends Component {
                             <div className="fourth col">Movie</div>
                         </div>
                     </section>
-                    <section className="trailers">Trailers
+                    <section className="trailers">
+                        <h1>Trailers</h1>
                         <div className="trailers">
                             <div className="first col">Movie</div>
                             <div className="second col">Video Game</div>

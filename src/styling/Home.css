@@ -1,5 +1,5 @@
 
-.container {
+.home {
     background-color: steelblue;
     position: relative;
     top: 8vh;
@@ -17,7 +17,7 @@
 .featured .first,
 .featured .second,
 .featured .third {
-    padding: 1%;
+    padding: 12%;
     margin: 1%;
 }
 
@@ -48,7 +48,7 @@
 .popular .second,
 .popular .third,
 .popular .fourth {
-    padding: 1%;
+    padding: 8%;
     margin: 1%;
 }
 
@@ -80,7 +80,7 @@
 .new .second,
 .new .third,
 .new .fourth {
-    padding: 1%;
+    padding: 6%;
     margin: 1%;
 }
 
@@ -111,7 +111,7 @@
 .trailers .first,
 .trailers .second,
 .trailers .third {
-    padding: 1%;
+    padding: 16%;
     margin: 1%;
 }
 

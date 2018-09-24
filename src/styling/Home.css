@@ -1,0 +1,131 @@
+
+.container {
+    background-color: steelblue;
+    position: relative;
+    top: 8vh;
+    font-family: Raleway, sans-serif;
+}
+
+/* Featured List */
+
+.featured {
+    text-align: center;
+    color: white;
+    padding: 1%;
+}
+
+.featured .first,
+.featured .second,
+.featured .third {
+    padding: 1%;
+    margin: 1%;
+}
+
+.featured .first {
+    background-color: slategray;
+
+}
+
+.featured .second {
+    background-color: darkred;
+
+}
+
+.featured .third {
+    background-color: darkslateblue;
+
+}
+
+/* Popular List */
+
+.popular {
+    text-align: center;
+    color: white;
+    padding: 1%;
+}
+
+.popular .first,
+.popular .second,
+.popular .third,
+.popular .fourth {
+    padding: 1%;
+    margin: 1%;
+}
+
+.popular .first {
+    background-color: darkblue;
+}
+
+.popular .second {
+    background-color: cyan;
+}
+
+.popular .third {
+    background-color: cadetblue;
+}
+
+.popular .fourth {
+    background-color: maroon;
+}
+
+/* New Releases*/
+
+.new {
+    text-align: center;
+    color: white;
+    padding: 1%;
+}
+
+.new .first,
+.new .second,
+.new .third,
+.new .fourth {
+    padding: 1%;
+    margin: 1%;
+}
+
+.new .first {
+    background-color: lightsteelblue;
+}
+
+.new .second {
+    background-color: teal;
+}
+
+.new .third {
+    background-color: blanchedalmond;
+}
+
+.new .fourth {
+    background-color: deepskyblue;
+}
+
+/* Trailers */
+
+.trailers {
+    text-align: center;
+    color: white;
+    padding: 1%;
+}
+
+.trailers .first,
+.trailers .second,
+.trailers .third {
+    padding: 1%;
+    margin: 1%;
+}
+
+.trailers .first {
+    background-color: slategray;
+
+}
+
+.trailers .second {
+    background-color: darkred;
+
+}
+
+.trailers .third {
+    background-color: darkslateblue;
+
+}

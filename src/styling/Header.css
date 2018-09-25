@@ -7,8 +7,6 @@
     overflow: hidden;
     position: fixed;
     top: 0;
-    margin-left: auto;
-    margin-right: auto;
     left: 0;
     right: 0;
     opacity: 1;
@@ -18,23 +16,27 @@
 
 .header a {
     color: #2D2D2D;
-    padding: 1vh;
-    margin: 0.5vh 10vw;
     text-decoration: none;
     font-size: 3vh;
     text-align: center;
     box-shadow: slategray;
+    margin: 0% 10%;
 }
 
 .header a:hover {
-    color: steelblue;
     text-decoration: none;
 }
 
-div Button {
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-    padding: 0;
-    margin-left: 10vw;
-    margin-right: 10vw
+div .login-btn {
+    color: white
+}
+
+div .login-btn a:hover {
+    color: white;
+}
+
+.drop-down,
+.search {
+    margin-top: 0.75vh;
+    padding-top: 0.75vh;
 }

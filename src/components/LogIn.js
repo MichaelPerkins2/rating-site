@@ -21,7 +21,7 @@ class LogIn extends Component {
                 <div className="log-in container">
                     <h1>Sign In</h1>
                     <form>
-                        <input type='text' placeholder='Email or Username' value={this.state.username} onChange={ e => this.setState({ username: e.target.value })} /><br/>
+                        <input type='text' placeholder='Username or Email' value={this.state.username} onChange={ e => this.setState({ username: e.target.value })} /><br/>
                         <input type='password' placeholder='Password' value={this.state.password} onChange={ e => this.setState({ password: e.target.value })} /><br/>
                     </form>
                     <button onClick={ e => this.onSubmit(e)}>Submit</button>

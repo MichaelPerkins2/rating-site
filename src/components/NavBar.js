@@ -1,11 +1,10 @@
 
 import React, { Component } from 'react';
-import '../styling/Header.css';
+import '../styling/NavBar.css';
 import { Button } from 'react-bootstrap';
 
 
-class Header extends Component {
-
+class NavBar extends Component {
 
 
     render() {
@@ -29,4 +28,4 @@ class Header extends Component {
     }
 }
 
-export default Header;
+export default NavBar;

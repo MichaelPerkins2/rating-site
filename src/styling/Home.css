@@ -45,6 +45,15 @@
     background-position: center;
 }
 
+.item-title {
+    background-color: white;
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+    bottom: 0;
+    /*opacity: 0.80;*/
+}
+
 /* Popular List */
 
 .popular {
@@ -61,6 +70,7 @@
     padding: 8vh;
     margin: 1vh;
     height: 30vh;
+    width: 10vw;
     background-color: white;
 }
 
@@ -109,6 +119,7 @@
     margin: 1%;
     background-color: white;
     height: 20vh;
+    width: 12vw;
 }
 
 .new .first {
@@ -145,15 +156,15 @@
     text-align: center;
     color: black;
     background-color: lightsteelblue;
-    padding: 4vh 0vw;
+    padding: 4vh 0;
     height: 150vh;
 }
 
 .trailers .first,
 .trailers .second,
 .trailers .third {
-    padding: 16vh;
-    margin: 2vh 0vw;
+    height: 16vh;
+    margin: 2vh 0;
     background-color: white;
 }
 

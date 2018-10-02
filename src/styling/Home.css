@@ -18,10 +18,9 @@
 .featured .first,
 .featured .second,
 .featured .third {
-    padding: 12vh;
     margin: 1vh;
-    background-color: white;
     height: 50vh;
+    width: 20vw;
 }
 
 .featured .first {
@@ -29,6 +28,15 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    text-align: center;
+}
+
+.f-item-title {
+    background-color: white;
+    font-size: 150%;
+    padding: 1vh;
+    position: relative;
+    top: 400px;
 }
 
 .featured .second {
@@ -46,13 +54,13 @@
 }
 
 .item-title {
-    background-color: white;
-    position: relative;
-    display: inline-block;
+    background-color: black;
     z-index: 2;
-    bottom: 0;
-    /*opacity: 0.80;*/
+    opacity: 0.70;
+    color: white;
 }
+
+
 
 /* Popular List */
 
@@ -67,7 +75,6 @@
 .popular .second,
 .popular .third,
 .popular .fourth {
-    padding: 8vh;
     margin: 1vh;
     height: 30vh;
     width: 10vw;
@@ -115,7 +122,6 @@
 .new .second,
 .new .third,
 .new .fourth {
-    padding: 6%;
     margin: 1%;
     background-color: white;
     height: 20vh;

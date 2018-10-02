@@ -13,9 +13,7 @@ class Home extends Component {
                         <h1>Featured</h1>
                         <div className="featured row">
                             <div className="first col">
-                                <div className='item-title'>
-                                    <p>Battlefield V</p>
-                                </div>
+                                <p className='item-title'>Battlefield V</p>
                             </div>
                             <div className="second col">
                                 <div className='item-title'>

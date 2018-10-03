@@ -8,19 +8,19 @@ class Home extends Component {
     render() {
         return (
             <div>
-                <div className="home container">
+                <div className="home container-fluid">
                     <section className="featured container">
                         <h1>Featured</h1>
                         <div className="featured row">
-                            <div className="first col">
+                            <div className="first col-xl col-lg col-md-12 col-sm-12 col-12">
                                 <p className='item-title'>Battlefield V</p>
                             </div>
-                            <div className="second col">
+                            <div className="second col-xl col-lg col-md-12 col-sm-12 col-12">
                                 <div className='item-title'>
                                     <p>Halloween</p>
                                 </div>
                             </div>
-                            <div className="third col">
+                            <div className="third col-xl col-lg col-md-12 col-sm-12 col-12">
                                 <div className='item-title'>
                                     <p>Call of Duty: Black Ops IV</p>
                                 </div>
@@ -30,15 +30,15 @@ class Home extends Component {
                     <section className="popular container">
                         <h1>Popular</h1>
                         <div className="popular row">
-                            <div className="first col">
+                            <div className="first col-xl col-lg col-md-12 col-sm-12 col-12">
                                 <div className='item-title'>
                                     <p>Black Panther</p>
                                 </div>
                             </div>
-                            <div className="second col"><div className='item-title'>
+                            <div className="second col-xl col-lg col-md-12 col-sm-12 col-12"><div className='item-title'>
                                 <p>PlayerUnknown's Battlegrounds</p>
                             </div></div>
-                            <div className="third col">
+                            <div className="third col-xl col-lg col-md-12 col-sm-12 col-12">
                                 <div className='item-title'>
                                     <p>Fortnite Battle Royale</p>
                                 </div>

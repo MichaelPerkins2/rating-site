@@ -5,6 +5,7 @@
     top: 8vh;
     font-family: Raleway, sans-serif;
     height: 330vh;
+    margin: auto;
 }
 
 /* Featured List */
@@ -13,6 +14,11 @@
     text-align: center;
     color: black;
     padding: 4vh;
+    background-color: white;
+}
+
+.featured .row {
+    justify-content: center;
 }
 
 .featured .first,
@@ -71,6 +77,11 @@
     background-color: lightsteelblue;
 }
 
+
+.popular .row {
+    justify-content: center;
+}
+
 .popular .first,
 .popular .second,
 .popular .third,
@@ -116,6 +127,12 @@
     color: black;
     padding: 1%;
     padding-top: 4vh;
+    background-color: white;
+}
+
+
+.new .row {
+    justify-content: center;
 }
 
 .new .first,
@@ -164,6 +181,11 @@
     background-color: lightsteelblue;
     padding: 4vh 0;
     height: 150vh;
+}
+
+
+.trailers .row {
+    justify-content: center;
 }
 
 .trailers .first,

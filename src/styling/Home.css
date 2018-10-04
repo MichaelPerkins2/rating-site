@@ -8,6 +8,34 @@
     margin: auto;
 }
 
+.feat-item-title,
+.pop-item-title,
+.new-item-title,
+.trail-item-title {
+    background-color: black;
+    z-index: 2;
+    opacity: 0.70;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 6vh;
+    letter-spacing: 2px;
+}
+
+.feat-item-title p,
+.pop-item-title p,
+.new-item-title p {
+    margin: 3%;
+    font-size: 1.8vh;
+    font-weight: bold;
+    overflow: auto;
+    display: inline-block;
+}
+
+
 /* Featured List */
 
 .featured {
@@ -17,9 +45,16 @@
     background-color: white;
 }
 
-.featured .row {
-    justify-content: center;
+.feat-item-title {
+    background-color: white;
+    color: black;
+    opacity: 0.60;
 }
+
+.feat-item-title p {
+    font-size: 2.2vh;
+}
+
 
 .featured .first,
 .featured .second,
@@ -34,15 +69,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    text-align: center;
-}
-
-.f-item-title {
-    background-color: white;
-    font-size: 150%;
-    padding: 1vh;
-    position: relative;
-    top: 400px;
 }
 
 .featured .second {
@@ -59,15 +85,6 @@
     background-position: center;
 }
 
-.item-title {
-    background-color: black;
-    z-index: 2;
-    opacity: 0.70;
-    color: white;
-}
-
-
-
 /* Popular List */
 
 .popular {
@@ -75,11 +92,6 @@
     color: black;
     padding: 4vh;
     background-color: lightsteelblue;
-}
-
-
-.popular .row {
-    justify-content: center;
 }
 
 .popular .first,
@@ -100,10 +112,10 @@
 }
 
 .popular .second {
-    background-image: url("https://cdn.vox-cdn.com/uploads/chorus_image/image/58706085/pubg_feb_update.0.jpg");
+    background-image: url("https://pmcvariety.files.wordpress.com/2018/04/pubg.jpg?w=1000&h=563&crop=1");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: right;
+    background-position: center;
 }
 
 .popular .third {
@@ -130,10 +142,16 @@
     background-color: white;
 }
 
-
-.new .row {
-    justify-content: center;
+.new-item-title {
+    background-color: white;
+    color: black;
+    opacity: 0.70;
 }
+
+.new-item-title p {
+    font-size: 2.2vh;
+}
+
 
 .new .first,
 .new .second,
@@ -183,17 +201,21 @@
     height: 150vh;
 }
 
-
-.trailers .row {
-    justify-content: center;
+.trail-item-title p {
+    margin: 1%;
+    overflow: auto;
+    display: inline-block;
+    font-size: 2.4vh;
+    letter-spacing: 3px;
 }
 
 .trailers .first,
 .trailers .second,
 .trailers .third {
-    height: 16vh;
-    margin: 2vh 0;
+    margin: 2vh 4vw;
     background-color: white;
+    width: 60vw;
+
 }
 
 .trailers .first {background-image: url("https://pmcvariety.files.wordpress.com/2018/07/christopher-robin-6.jpg?w=1000");

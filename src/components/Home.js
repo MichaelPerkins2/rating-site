@@ -13,16 +13,18 @@ class Home extends Component {
                         <h1>Featured</h1>
                         <div className="featured row">
                             <div className="first col-xl col-lg col-md-12 col-sm-12 col-12">
-                                <p className='item-title'>Battlefield V</p>
+                                <div className='feat-item-title'>
+                                    <p className='feat-title'>Battlefield V</p>
+                                </div>
                             </div>
                             <div className="second col-xl col-lg col-md-12 col-sm-12 col-12">
-                                <div className='item-title'>
-                                    <p>Halloween</p>
+                                <div className='feat-item-title'>
+                                    <p className='feat-title'>Halloween</p>
                                 </div>
                             </div>
                             <div className="third col-xl col-lg col-md-12 col-sm-12 col-12">
-                                <div className='item-title'>
-                                    <p>Call of Duty: Black Ops IV</p>
+                                <div className='feat-item-title'>
+                                    <p className='feat-title'>Call of Duty: Black Ops 4</p>
                                 </div>
                             </div>
                         </div>
@@ -31,21 +33,23 @@ class Home extends Component {
                         <h1>Popular</h1>
                         <div className="popular row">
                             <div className="first col-xl col-lg col-md-12 col-sm-12 col-12">
-                                <div className='item-title'>
-                                    <p>Black Panther</p>
+                                <div className='pop-item-title'>
+                                    <p className='pop-title'>Black Panther</p>
                                 </div>
                             </div>
-                            <div className="second col-xl col-lg col-md-12 col-sm-12 col-12"><div className='item-title'>
-                                <p>PlayerUnknown's Battlegrounds</p>
-                            </div></div>
+                            <div className="second col-xl col-lg col-md-12 col-sm-12 col-12">
+                                <div className='pop-item-title'>
+                                    <p className='pop-title'>PlayerUnknown's Battlegrounds</p>
+                                </div>
+                            </div>
                             <div className="third col-xl col-lg col-md-12 col-sm-12 col-12">
-                                <div className='item-title'>
-                                    <p>Fortnite Battle Royale</p>
+                                <div className='pop-item-title'>
+                                    <p className='pop-title'>Fortnite Battle Royale</p>
                                 </div>
                             </div>
                             <div className="fourth col">
-                                <div className='item-title'>
-                                    <p>Deadpool 2</p>
+                                <div className='pop-item-title'>
+                                    <p className='pop-title'>Deadpool 2</p>
                                 </div>
                             </div>
                         </div>
@@ -54,23 +58,23 @@ class Home extends Component {
                         <h1>New Releases</h1>
                         <div className="new row">
                             <div className="first col">
-                                <div className='item-title'>
-                                    <p>Fallout 76</p>
+                                <div className='new-item-title'>
+                                    <p className='new-title'>Fallout 76</p>
                                 </div>
                             </div>
                             <div className="second col">
-                                <div className='item-title'>
-                                    <p>The Nun</p>
+                                <div className='new-item-title'>
+                                    <p className='new-title'>The Nun</p>
                                 </div>
                             </div>
                             <div className="third col">
-                                <div className='item-title'>
-                                    <p>NBA 2K19</p>
+                                <div className='new-item-title'>
+                                    <p className='new-title'>NBA 2K19</p>
                                 </div>
                             </div>
                             <div className="fourth col">
-                                <div className='item-title'>
-                                    <p>Venom</p>
+                                <div className='new-item-title'>
+                                    <p className='new-title'>Venom</p>
                                 </div>
                             </div>
                         </div>
@@ -79,18 +83,18 @@ class Home extends Component {
                         <h1>Trailers</h1>
                         <div className="trailers">
                             <div className="first col">
-                                <div className='item-title'>
-                                    <p>Christopher Robin</p>
+                                <div className='trail-item-title'>
+                                    <p className='trail-title'>Christopher Robin</p>
                                 </div>
                             </div>
                             <div className="second col">
-                                <div className='item-title'>
-                                    <p>Red Dead Redemption</p>
+                                <div className='trail-item-title'>
+                                    <p className='trail-title'>Red Dead Redemption</p>
                                 </div>
                             </div>
                             <div className="third col">
-                                <div className='item-title'>
-                                    <p>Battlefield V</p>
+                                <div className='trail-item-title'>
+                                    <p className='trail-title'>Battlefield V</p>
                                 </div>
                             </div>
                         </div>

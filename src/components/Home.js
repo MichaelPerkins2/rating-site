@@ -89,7 +89,7 @@ class Home extends Component {
                             </div>
                             <div className="second col">
                                 <div className='trail-item-title'>
-                                    <p className='trail-title'>Red Dead Redemption</p>
+                                    <p className='trail-title'>Red Dead Redemption 2</p>
                                 </div>
                             </div>
                             <div className="third col">

@@ -24,7 +24,8 @@ class NavBar extends Component {
                                 </div>
                             </div>
                             <Button className='page-title col-xl-1 col-lg-1 col-md-1 col-sm-2 col-xs-2' bsStyle='link'  href='/'>MGR</Button>
-                            <a className='' href='/' id=''><i className='search fas fa-search'></i></a>
+                            {/*<a className='' href='/' id=''><i className='search fas fa-search'></i></a>*/}
+                            <input className='search' type='text' name='search' placeholder='Search...' />
                             <Button className='login-btn col-xl-1 col-lg-1 col-md-2 col-sm-2 col-xs-2' bsSize='default' bsStyle='primary' href='/login'>Sign In</Button>
                         </div>
 

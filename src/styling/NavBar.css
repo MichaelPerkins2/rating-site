@@ -44,16 +44,6 @@
     font-size: 3vh;
 }
 
-/*Log in*/
-
-div .login-btn {
-    color: white;
-    overflow: hidden;
-}
-
-div .login-btn a:hover {
-    color: white;
-}
 
 /*Drop-down menu*/
 
@@ -102,4 +92,32 @@ div .login-btn a:hover {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+/*Search*/
+
+input[type=text] {
+    width: 120px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 20%;
+}
+
+.search {
+    font-size: medium;
+}
+
+/*Log in*/
+
+div .login-btn {
+    color: white;
+    overflow: hidden;
+}
+
+div .login-btn a:hover {
+    color: white;
 }
